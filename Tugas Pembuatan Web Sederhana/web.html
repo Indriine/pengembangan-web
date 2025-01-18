@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: #d04a6e;
+            color:#f5f0f2 ;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            padding: 0px 0;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 18px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .leftcolumn {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .rightcolumn {
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-me img {
+            width: 100%;
+            height: 250px;
+            background-color: grey;
+        }
+
+        .about-me .images img {
+            width: 100%;
+            height: 80px;
+            margin-top: 10px;
+            background-color: grey;
+        }
+
+        .content img {
+            width: 100%;
+            height: 250px;
+            background-color: grey;
+        }
+
+        .footer {
+            background-color: #ddd;
+            padding: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>My Website</h1>
+        <p>A responsive website created by me.</p>
+    </div>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Link</a>
+        <a href="Tabel.html">Nilai</a>
+    </div>
+
+    <div class="container">
+        <!-- Left Column -->
+        <div class="leftcolumn">
+            <div class="card about-me">
+                <h2>About Me</h2>
+                <p>Photo of me:</p>
+                <img src="WhatsApp Image 2024-09-25 at 00.09.15.jpeg" alt="Image">
+                <p>Hi!! Namaku Yosepha Indriani Ine biasa di panggil indri. Aku seorang mahasiswa semester 3 dari prodi Sistem dan Teknologi Informasi  di Universitas 17 Agustus 1945 Surabaya. </p>
+                <p><b>More Text</b></p>
+                <p> Aku berasal dari pulau Flores. Aku adalah seorang introvert, jadi sangat susah bagiku saat pertama kali merantau karena aku harus melepaskan zona nyamanku. Syukurnya aku bertemu dengan teman-teman yang dengan senang hati mangajak ku untuk bergabung bersama mereka. </p>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="rightcolumn">
+            <div class="card content">
+                <h2>Holiday</h2>
+                <h5>Riung, Feb 15, 2023</h5>
+                <img src="WhatsApp Image 2024-09-25 at 01.13.09.jpeg" alt="Image">
+                <p>Liburan bersama keluarga setelah sekian lama. Seru sekali!!</p>
+
+            </div>
+            <div class="card content">
+                <h2>With my friend</h2>
+                <h5>Surabaya, June 06, 2024</h5>
+                <img src="WhatsApp Image 2024-09-25 at 01.21.22.jpeg" alt="Image">
+                <p>Ngerayain ultah elii!!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+
+</body>
+</html>
